@@ -3,11 +3,11 @@
 ## Requisitos
 
 - Ter instalado em sua máquina um editor de código (VSCode ou Visual Studio Code)
-- Ter instalado em sua máquina o pacote de desenvolvimento [.NET](https://dotnet.microsoft.com/en-us/download){:target="\_blank"}
+- Ter instalado em sua máquina o pacote de desenvolvimento [.NET](https://dotnet.microsoft.com/en-us/download){:target="_blank"}
 - Ter instalado em sua máquina um banco de dados (SQL Server, PostgreSQL, MySQL)
 - **Obs.:** Usados nesse projeto:
-  - [VSCode](https://code.visualstudio.com/download){:target="\_blank"}
-  - [SQL Server Express](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads){:target="\_blank"}
+  - [VSCode](https://code.visualstudio.com/download{:target="_blank"})
+  - [SQL Server Express](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads){:target="_blank"}
 
 ## Preparando ambiente de trabalho
 
