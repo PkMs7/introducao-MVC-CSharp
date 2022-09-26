@@ -14,7 +14,7 @@
 - **Passo 1:** Inicie o projeto no seu terminal (CLI) com o comando `dotnet new mvc`
 - **Passo 2:** Para visualizar o projeto em seu navegador, use o seguinte comando `dotnet watch run`
 - **Passo 3:** Inicie o Entity Framework no seu projeto com o comando `dotnet add package Microsoft.EntityFrameworkCore.{seuservidor}`
-- **Obs.:** No **Passo 3** um ponto a ser observado: Se você não tem instalado o Entity Framework, instale na sua máquina com o comando `dotnet tool install --global dotnet-ef` (mais sobre como configurar [clique aqui](https://github.com/PkMs7/introducao-API-dotnetCSharp){:target="\_blank"})
+- **Obs.:** No **Passo 3** um ponto a ser observado: Se você não tem instalado o Entity Framework, instale na sua máquina com o comando `dotnet tool install --global dotnet-ef` (mais sobre como configurar [clique aqui](https://github.com/PkMs7/introducao-API-dotnetCSharp){:target="_blank"})
 - **Passo 4:** Inicie também o pacote Design do Entity Framework `dotnet add package Microsoft.EntityFrameworkCore.Design`
 
 
