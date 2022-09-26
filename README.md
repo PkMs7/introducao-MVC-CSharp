@@ -1,11 +1,20 @@
 # Passo a passo para criação de um projeto MVC com C#
 
+## Requisitos
+
+- Ter instalado em sua máquina um editor de código (VSCode ou Visual Studio Code)
+- Ter instalado em sua máquina o pacote de desenvolvimento [.NET](https://dotnet.microsoft.com/en-us/download)
+- Ter instalado em sua máquina um banco de dados (SQL Server, PostgreSQL, MySQL)
+- **Obs.:** Usados nesse projeto:
+  - [VSCode](https://code.visualstudio.com/download)
+  - [SQL Server Express](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads)
+
 ## Preparando ambiente de trabalho
 
 - **Passo 1:** Inicie o projeto no seu terminal (CLI) com o comando `dotnet new mvc`
 - **Passo 2:** Para visualizar o projeto em seu navegador, use o seguinte comando `dotnet watch run`
 - **Passo 3:** Inicie o Entity Framework no seu projeto com o comando `dotnet add package Microsoft.EntityFrameworkCore.{seuservidor}`
-- **Obs.:** No **Passo 3** um ponto a ser observado: Se você não tem instalado o Entity Framework, instale na sua máquina com o comando `` (mais sobre como configurar clique aqui)
+- **Obs.:** No **Passo 3** um ponto a ser observado: Se você não tem instalado o Entity Framework, instale na sua máquina com o comando `dotnet tool install --global dotnet-ef` (mais sobre como configurar [clique aqui](https://github.com/PkMs7/introducao-API-dotnetCSharp))
 - **Passo 4:** Inicie também o pacote Design do Entity Framework `dotnet add package Microsoft.EntityFrameworkCore.Design`
 
 
@@ -27,6 +36,9 @@
 - **Passo 5:** Crie agora suas migrations de acordo com a model que você criou. Use o comando `dotnet ef migrations add {nomeDaMigration}`
 - **Passo 6:** Com a pasta migration criada agora crie os dados no seu DB com o seguinte comando `dotnet ef database update`
 
-## Começando a programar
+## Resumo da programação
 
-- **Passo 1:**
+- **Passo 1:** Crie sua **CONTROLLER** da página a ser exibida
+- **Passo 2:** Crie sua **VIEW** da página a ser exibida, na qual você referenciou sua controller
+- **Passo 3:** Repetir os passos acima de acordo com o CRUD necessário para cada página
+- **Obs.:** Cada página a ser criada é feita com uma pasta separada, onde tudo ali será referenciado com sua devida controller
